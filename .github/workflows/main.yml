@@ -16,7 +16,7 @@ jobs:
       - name: Archive Release # 打包文件为 zip
         uses: thedoctor0/zip-release@master
         with:
-          filename: 'DGT_Extra_datapack_Actions.zip'
+          filename: 'CancelCaveSound.zip'
           path: 'assets LICENSE pack.mcmeta'
 
       - name: Upload Artifact #上传输出文件
